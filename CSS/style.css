@@ -49,10 +49,20 @@ h1{
     font-weight: bold;
     line-height: 60px;
 }
+.container-card{
+    height: 400px;
+    width: 1900px;
+     border-radius: 50px;
+    justify-content: center;
+    display: flex;
+    margin-block: 30px;
+    align-items: center;
+    flex-wrap: wrap;
+}
 .card{
     background-color: #ff6fbe;
     height: 380px;
-    width: 280px;
+    width: 300px;
     border-radius: 50px;
     justify-content: center;
     display: block;
@@ -66,4 +76,20 @@ h1{
     width: 225px;
     height: 200px;
      box-shadow: 3px 3px 3px rgb(253, 1, 140);
+}
+.card2{
+    background-color: rgb(255, 0, 128);
+    width: 1300px;
+    height: 250px;
+    margin-left: 100px;
+    border-radius: 30px;
+}
+.audio{
+   border-radius: 10px;
+}
+div p{
+    margin-top: 100px;
+    height: 300px;
+    width: 800px;
+    margin-left: 30px;
 }
